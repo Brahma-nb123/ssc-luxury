@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* first page  */
+
+body{
+    background-image: url(https://www.scsdubai.ae/luxury-car-on-rent/public/images/sscbgimg.jpg);
+    background-color:rgba(33, 29, 29, 0.489);
+}
+.send{
+    max-width: 100%;
+    background: rgba(11, 11, 11, 0.822);
+    
+}
+.image{
+ width: 70px;
+ height: 70px;
+ object-fit: cover;
+ margin: 10px 30px;
+}
+.text{
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.tetx-1{
+    color: white;
+    padding: 10px;
+    border-radius: 20px;   
+    background: rgb(159, 154, 14);
+}
+.bg-main{
+    /* max-width: 100%; */
+    background: rgba(43, 41, 41, 0.589);
+
+}
+.main{
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 50%;
+    transform: translatey(50%);
+}
+.main-text{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+
+.text-3{
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    color: rgb(9, 104, 9);
+}
+
+.center{
+    
+   background: rgba(15, 19, 16, 0.623);
+   border-radius: 14px;
+   color: rgb(39, 58, 180)e;
+    }
+    .center form{
+        padding: 4px 40px;  
+        box-sizing: border-box;
+      }
+      form .text_field{
+        position: relative;
+        border-bottom: 2px solid rgb(250, 249, 249);
+        margin: 30px 0;
+    }
+    .text_field input{
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+        font-size: 19px;
+        border: none;
+        background: none;
+        outline: none;
+        color: aliceblue;
+    }
+    .text_field label{
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        color: #adadad;
+        transform: translatey(-50%);
+        font-size: 16px;
+        pointer-events: none;
+        transition: .5s;
+    }
+    .text_field span::before{
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: blue;
+    
+    }
+    .text_field input:focus ~ label,
+.text_field input:valid ~ label{
+    top: -5px;
+}
+.login{
+    width:100%;
+    color: white;
+    height:50px;
+    font-size: 20px;
+    border-radius: 10px ;
+    background-color: rgb(39, 58, 180);
+    transition:.5s;
+    margin-bottom: 10px;
+}
+.form{
+    margin: 40px 20px;
+}
+
+.img-section{
+    background:  whitesmoke;
+}
+
+/* second page css */
+.text-11{
+    
+    
+    border: 1px solid #030b0bf8;
+    gap: 0px;
+    border-radius: 10px;
+    padding:1rem;
+    margin:20px 0px;
+}
+.text-a{
+    background: rgba(12, 32, 32, 0.973);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.text-c{
+    font-family:monospace!important;
+    padding: 4px;
+    color: #030b0bf8;
+}
+.hrr{
+    color:#030b0bf8 ;
+}
+.text-d{
+    text-align: center;
+    align-items: center;
+}
+.text-e{
+    text-align: center;
+    align-items: center;
+}
+.whatsApp{
+    font-size: 20px;
+    background: rgb(3, 41, 16);
+    color: white!important;
+    padding: 3px 6px;
+    border-style: none;
+    border-radius: 4px;
+}
+.Call-Now{
+    font-size: 20px;
+    background: rgb(116, 213, 31);
+    color: white!important;
+    padding: 4px 8px;  
+    border-style: none;
+    border-radius: 4px;
+}
+
+/* <!-- third card CSS  START  --> */
+
+.card-section{
+    background: rgb(245, 237, 237);
+}
+.mt{
+    margin-top: 50px;
+}
+/* third card CSS START */
+.card1{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    background: rgb(53, 52, 52);
+    color: white ;
+    box-shadow: 2px 2px 2px 2px #888888 ;
+}
+.card-title{
+    padding: 10px;
+}
+.card-text{
+    padding:10px 0px;
+    font-size: 13px;
+}
+/* third card CSS END */
+
+.Grid-section{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    background:  whitesmoke;
+}
+.borders{
+    background: white;
+    margin: 20px 0px;
+    border: 1px solid rgb(3, 41, 16);
+}
+.g-cad-icon{
+    color:rgb(3, 41, 16);
+    font-size: 60px;
+}
+.g-cad-p{
+    padding: 10px 0px;
+    color: rgb(3, 41, 16);
+}
+
+/* end ...................  */
+
+/* 4th section...start */
+.card-section{
+    background: whitesmoke;
+}
+.card-body22{
+    color: #000;
+    background: white;
+    border-style: none;
+    border-radius: 20px;
+}
+.card55{
+    border-radius: 20px;
+    box-shadow:2px 2px 2px 2px rgb(180, 166, 166);
+
+}
+.card-title2{
+    padding-top:20px;
+    text-align: center;
+    align-items: center;
+}
+.card-title23{
+    padding-top:10px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+/* 4th section...END */
+
+
+/* 5th section ... start  */
+.dp-section{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    background:  whitesmoke;
+}
+.headding{
+    color: rgb(10, 10, 10);
+    margin: 50px 0px !important;
+}
+.paragraph{
+    font-size: 20px;
+    color: rgba(173, 21, 163, 0.952);
+}
+.card66-img{
+    width: 90px;
+    height: 90px;
+    /* border: 2px solid red; */
+    object-fit: contain;
+    object-position: 50% 100%;
+    border-radius: 50%;
+    margin: 14px 0px;
+
+}
+.card66-img img{
+    text-align: center;
+    align-items: center;
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   
+}
+.card66-p{
+    font-size: 14px;
+}
+.card66-title{
+    font-size: 22px;
+    /* margin: 0px 100px; */
+    border-top: 2px solid rgb(0, 0, 0);
+}
+.card66-text{
+    font-size: 14px;
+}
+.card66{
+    background: white;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    /* box-shadow: 2px 2px 2px 2px #888888; */
+    border-style: none;
+}
+
+/* 5th section ... End..  */
+
+/*  6th -tetx-section  start */
+.text-section{    
+    background:  whitesmoke;   
+}
+.new{
+    text-align: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.accordion{
+    padding-bottom: 70px;
+}
+/*  6th -tetx-section  End */
+/*  7th -tetx-section  Start */
+.last-section{
+    background: rgb(30, 29, 29);
+    color: white;
+}
+.last-h{
+    padding: 40px 0px;
+}
+.last-p2{
+    font-size: 17px;
+    padding: 20px 0px;
+}
+.last-99{
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    padding:5px 0px;
+}
+.send33{
+    margin-bottom: 40px;
+}
+/*  7th -tetx-section  End */
+.footer-section{
+    background: rgb(79, 79, 81);
+}
+.supb{
+    color: white;
+    margin-top:40px ;
+    margin-bottom: 90px;
+}
+.supb-text{
+    padding: 10px;
+}
+.supb-2{
+    margin-top: 40px;
+    color: white;
+}
+.btn-80{
+    background:rgb(184, 157, 6);
+    padding: 8px 30px 8px 30px;
+    color: white;
+    border-style: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn-80:hover{
+background: rgb(129, 111, 6);
+}
+.icons-99{
+    padding: 15px 0px;
+    font-size: 20px;
+}
+.content{
+    background: #000;
+    padding: 20px 0px;
+}
+.jj{
+    color: white;
+}
+.kk{
+    color: white;
+    font-size: 22px;
+}
